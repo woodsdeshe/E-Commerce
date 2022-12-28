@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #home, #cart {
+    float: left;
+  }
+  
+  #logout {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  main {
+    overflow: scroll;
+    
+  }
+
+  #product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+  }
+
+  .product-card {
+    display: grid;
+    grid-template-columns: none;
+  }
