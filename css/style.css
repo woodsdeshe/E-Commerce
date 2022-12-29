@@ -28,18 +28,24 @@ ul {
     background-color: #111;
   }
 
-  main {
-    overflow: scroll;
-    
-  }
+
 
   #product-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 20px
   }
 
   .product-card {
-    display: grid;
-    grid-template-columns: none;
+    border: 2px solid;
+  }
+
+  header img {
+    padding: 10px;
   }
